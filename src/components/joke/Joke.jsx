@@ -5,7 +5,7 @@ import Single from "./Single";
 import TwoPart from "./TwoPart";
 import Randomiser from "./Randomizer";
 import Alert from "../alert/Alert";
-import Loader from "../loader/Loading";
+import Loader from "../loader/Loader";
 
 import axios from "axios";
 

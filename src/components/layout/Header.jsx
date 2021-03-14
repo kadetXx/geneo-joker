@@ -7,7 +7,7 @@ function Header() {
         <h1>GeneoJoker</h1>
       </a>
 
-      <a href="https://github.com" className='header-icon'>
+      <a href="https://github.com/kadetXx/geneo-joket" className='header-icon'>
         <i className="fab fa-github"></i> Dev
       </a>
     </header>
