@@ -34,8 +34,10 @@ function Joke({ category }) {
     axios
       .get(`${req.url}/${req.category}?blacklistFlags=${req.blacklistFlags}`)
       .then((res) => {
-        setJokeData(res.data);
-        setLoading(false);
+        setTimeout(() => {
+          setJokeData(res.data);
+          setLoading(false);
+        }, 1000);
       })
       .catch((err) => {
         setLoading(false);
