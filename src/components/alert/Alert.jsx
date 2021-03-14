@@ -17,5 +17,5 @@ Alert.propTypes = {
 }
 
 Alert.defaultProps = {
-  message: 'Oops, An unexpected error occured, try again.'
+  message: 'Oops, An unexpected error occured, please try again.'
 }
