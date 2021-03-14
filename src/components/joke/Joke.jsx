@@ -25,6 +25,8 @@ function Joke({ category }) {
 
   useEffect(() => {
     getJoke();
+
+    //eslint-disable-next-line
   }, [category]);
 
   return (
