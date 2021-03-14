@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className='container'>
       <a href="/" className="header-logo">
-        <h1>Lmaooooo</h1>
+        <h1>GeneoJoker</h1>
       </a>
 
       <a href="https://github.com" className='header-icon'>

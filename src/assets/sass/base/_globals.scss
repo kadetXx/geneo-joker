@@ -20,11 +20,11 @@ button {
   padding: 0.7rem 1.2rem;
   border: none;
   outline: none;
-  transition: all 0.05s linear;
+  transition: background 0.1s linear;
   font-weight: 600;
 
   &:hover {
-    transform: scale(1.05);
+    // transform: scale(1.05);
     background: $col-primary;
     color: $col-white;
   } 

@@ -35,7 +35,7 @@ function Category(props) {
     <main className='category container'>
       <nav className='nav-menu'>
         <ul>
-          <li><Link to='/'><button>Home</button></Link></li>
+          <li><Link to='/'><button><i className="fas fa-chevron-left"></i> Home</button></Link></li>
           <li><Link to={`/categories/${nextCategory()}`}><button>Change Category</button></Link></li>
         </ul>
       </nav>

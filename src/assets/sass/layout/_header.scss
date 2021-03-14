@@ -22,9 +22,10 @@ header {
     @include flex(center, center);
     text-transform: uppercase;
     transition: color 0.2s linear;
+    color: $col-primary;
 
     &:hover {
-      color: $col-primary;
+      color: lighten($color: $col-primary, $amount: 25);
     }
     
     i {

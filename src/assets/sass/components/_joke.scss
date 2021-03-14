@@ -37,10 +37,17 @@
     ul {
       display: block;
       list-style: none;
-      font-size: 0.8rem;
-  
+      font-size: 0.9rem;
+
+      @include respond(phone) {
+        @include flex(center, center);
+      }
+
       li {
         margin: 0.5rem 0;
+        @include respond(phone) {
+          margin: 0.5rem;
+        }
       }
 
       li span {
