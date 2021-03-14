@@ -8,7 +8,7 @@ function Header() {
       </a>
 
       <a href="https://github.com/kadetXx/geneo-joker" className='header-icon'>
-        <i className="fab fa-github"></i> Dev
+        <i className="fab fa-github"></i> Code
       </a>
     </header>
   );
