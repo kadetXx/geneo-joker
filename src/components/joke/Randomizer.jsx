@@ -4,7 +4,7 @@ function Randomizer( {getJoke} ) {
 
   return (
     <div className='randomizer'>
-      <button onClick={() => getJoke()}>Random Joke</button>
+      <button className='btn-big' onClick={() => getJoke()}>Random Joke</button>
     </div>
   )
 }

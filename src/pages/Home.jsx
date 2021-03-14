@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <main className="home container">
-      <h3>Limit Category</h3>
+      <h3>Filter By Category</h3>
       <nav className='nav-menu'>
         <ul>
           {categories.map((category, index) => (

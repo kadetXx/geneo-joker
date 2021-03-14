@@ -22,12 +22,17 @@ button {
   outline: none;
   transition: background 0.1s linear;
   font-weight: 600;
+  background: $col-grey;
 
   &:hover {
     // transform: scale(1.05);
     background: $col-primary;
     color: $col-white;
   } 
+}
+
+button.btn-big {
+  padding: 0.9rem 2rem;
 }
 
 main {
