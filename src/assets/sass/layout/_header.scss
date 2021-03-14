@@ -20,7 +20,7 @@ header {
 
   .header-icon {
     @include flex(center, center);
-    text-transform: uppercase;
+    text-transform: lowercase;
     transition: color 0.2s linear;
     color: $col-primary;
 
