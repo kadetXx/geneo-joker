@@ -1,0 +1,15 @@
+.alert {
+  @include flex(center, center, column wrap);
+  padding: 1rem 0;
+  margin: 1rem ;
+
+  i {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: darken($color: $col-grey, $amount: 60);
+  }
+
+  p {
+    text-align: center;
+  }
+}
