@@ -83,13 +83,13 @@ function Joke({ category }) {
             <div className="joke__details">
               <ul>
                 <li>
-                  <span>Language:</span> {jokeData.lang}{" "}
+                  <span>Language:</span> {jokeData.lang}
                 </li>
                 <li>
-                  <span>Type:</span> {jokeData.type}{" "}
+                  <span>Type:</span> {jokeData.type}
                 </li>
                 <li>
-                  <span>Category:</span> {jokeData.category}{" "}
+                  <span>Category:</span> {jokeData.category}
                 </li>
               </ul>
             </div>
