@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  font-family: $font;
+  background: $col-white;
+}
+
+body, #root, .App {
+  height: 100%;
+}
+
+.App {
+  @include flex(flex-start, unset, column nowrap)
+}
+
+.container {
+  padding: 1.5rem 5%;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  outline: none;
+  transition: all 0.05s linear;
+  font-weight: 600;
+
+  &:hover {
+    transform: scale(1.05);
+    background: $col-primary;
+    color: $col-white;
+  } 
+}
+
+main {
+  margin-bottom: 4rem
+}
+
+.nav-menu {
+
+  ul {
+    @include flex(flex-start, center, nowrap);
+    list-style: none;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  } 
+
+  li {
+    margin: 0 1rem 1rem 0;
+  }
+}

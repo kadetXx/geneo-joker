@@ -1,0 +1,56 @@
+.joke {
+  @include flex(center, center);
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+  border: 1px solid $col-grey;
+  position: relative;
+  margin-top: 4rem;
+  border-radius: 10px;
+
+  &__emoji {
+    position: absolute;
+    top: -1.5rem;
+    font-size: 3rem;
+    background: $col-white;
+
+    i {
+      margin: auto;
+      color: $col-primary;
+    }
+  }
+
+  &__body {
+    width: 100%;
+
+    p {
+      border: 1px solid $col-grey;
+      border-radius: 10px;
+      padding: 1rem;
+      background: $col-primary;
+      color: $col-white;
+    }
+  }
+
+  &__details {
+    width: 100%;
+
+    ul {
+      display: block;
+      list-style: none;
+      font-size: 0.8rem;
+  
+      li {
+        margin: 0.5rem 0;
+      }
+
+      li span {
+        font-weight: 500
+      }
+    }
+  }
+}
+
+.randomizer {
+  @include flex(center, center);
+  margin-top: 2rem;
+}
