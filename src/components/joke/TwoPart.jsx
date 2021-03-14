@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-type'
 
 function TwoPart({ setup, delivery }) {
   return (
@@ -10,3 +11,8 @@ function TwoPart({ setup, delivery }) {
 }
 
 export default TwoPart
+
+TwoPart.propTypes = {
+  setup: PropTypes.string.isRequired,
+  delivery: PropTypes.string
+};

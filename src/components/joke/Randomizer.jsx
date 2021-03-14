@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 function Randomizer( {getJoke} ) {
 
@@ -10,3 +11,7 @@ function Randomizer( {getJoke} ) {
 }
 
 export default Randomizer
+
+Randomizer.propTypes = {
+  getJoke: PropTypes.func.isRequired,
+};

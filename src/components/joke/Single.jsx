@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-type'
 
 function Single({ joke }) {
   return (
@@ -9,3 +10,7 @@ function Single({ joke }) {
 }
 
 export default Single
+
+Single.propTypes = {
+  joke: PropTypes.string.isRequired,
+};
